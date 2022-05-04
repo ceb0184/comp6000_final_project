@@ -1,0 +1,106 @@
+body
+{
+	background-color: #ffffff;
+	color: #000000;
+}
+
+.styled-table 
+{
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr 
+{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-size: 30px;
+}
+
+.styled-table th
+{
+    padding: 12px 15px;
+    font-size: 20px;
+}
+
+.styled-table td
+{
+    width: 25%;
+}
+
+.image
+{
+    width: 100%;
+    min-height: 500px;
+    min-width: 500px;
+}
+
+.imageCell
+{
+    min-height: 500px;
+    min-width: 500px;
+}
+
+.name
+{
+    padding: 12px 15px;
+    font-size: 40px;
+}
+
+.description
+{
+    padding: 12px 15px;
+    font-size: 30px;
+}
+
+.check
+{
+    vertical-align:bottom;
+    text-align:center;
+}
+
+input.largerCheckbox
+{
+    width: 30px;
+    height: 30px;
+}
+
+label
+{
+    padding: 12px 15px;
+    font-size: 20px;
+}
+
+.styled-table tbody tr 
+{
+    border-bottom: 2px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) 
+{
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type 
+{
+    border-bottom: 2px solid #009879;
+}
+
+.form-submit-button 
+{
+background: #009879;
+color: white;
+border-style: outset;
+border-color: #009879;
+height: 50px;
+width: 100px;
+font: bold15px arial,sans-serif;
+text-shadow: none;
+}

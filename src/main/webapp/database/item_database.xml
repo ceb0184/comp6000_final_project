@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+	<item>
+		<name>Beach Ball Bananza</name>
+		<itemId>item1</itemId>
+		<description>Take on the best in this sandy spinoff of Volleyball!</description>
+		<image>http://localhost:8080/final_project/database/beachBall.jpg</image>
+                <price>10.00</price>
+	</item>
+	<item>
+		<name>Go Go GoKarts</name>
+		<itemId>item2</itemId>
+		<description>Race against your friends in this action packed racing game!</description>
+		<image>http://localhost:8080/final_project/database/goKarts.png</image>
+                <price>12.00</price>
+	</item>
+	<item>
+		<name>Hammer Slammers</name>
+		<itemId>item3</itemId>
+		<description>Compete against the clock as you try to hammer as many nails as you can!</description>
+		<image>http://localhost:8080/final_project/database/hammer.png</image>
+                <price>15.00</price>
+	</item>
+        <item>
+		<name>Rockin' Robots</name>
+		<itemId>item4</itemId>
+		<description>Battle it out as supercharged robots of the future! Can be played solo or with a friend!</description>
+		<image>http://localhost:8080/final_project/database/robots.jpg</image>
+                <price>20.00</price>
+	</item>
+        <item>
+		<name>Fighting Firemen</name>
+		<itemId>item5</itemId>
+		<description>Help save the city from a rampaging fire! More points for the more fires you put out!</description>
+		<image>http://localhost:8080/final_project/database/firefighters.jpg</image>
+                <price>14.00</price>
+	</item>
+</items>

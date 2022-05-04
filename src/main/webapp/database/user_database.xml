@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<UserDatabase>
+	<User>
+		<Username>Cameron</Username>
+		<Password>Password</Password>
+                <Cart><item>Beach Ball Bananza</item></Cart>
+	</User>
+        <User>
+		<Username>Professor</Username>
+		<Password>Admin</Password>
+                <Cart><item>Beach Ball Bananza</item></Cart>
+	</User>
+</UserDatabase>

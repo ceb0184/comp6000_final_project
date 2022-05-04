@@ -1,0 +1,101 @@
+<!DOCTYPE HTML SYSTEM "about:legacy-compat">
+<html xmlns:fn="http://www.w3.org/2005/xpath-functions" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Store Page</title>
+		<link rel="stylesheet" href="http://localhost:8080/final_project/store_style.css">
+	</head>
+	<body>
+		<form action="cartServlet" method="post">
+			<table class="styled-table">
+				<thead>
+					<tr>
+						<th>Picture</th>
+						<th>Title</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="imageCell"><img class="image" src="http://localhost:8080/final_project/database/beachBall.jpg" alt="Logo" height="500" width="500"></td>
+						<td class="name">Beach Ball Bananza</td>
+						<td class="description">Take on the best in this sandy spinoff of Volleyball!<br><br>
+										$10.00</td>
+						<td class="check"><input type="checkbox" class="largerCheckbox" name="gameSelect" value="Beach Ball Bananza|10.00"><label for="gameSelect">Add game to cart</label></td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="styled-table">
+				<thead>
+					<tr>
+						<th>Picture</th>
+						<th>Title</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="imageCell"><img class="image" src="http://localhost:8080/final_project/database/goKarts.png" alt="Logo" height="500" width="500"></td>
+						<td class="name">Go Go GoKarts</td>
+						<td class="description">Race against your friends in this action packed racing game!<br><br>
+										$12.00</td>
+						<td class="check"><input type="checkbox" class="largerCheckbox" name="gameSelect" value="Go Go GoKarts|12.00"><label for="gameSelect">Add game to cart</label></td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="styled-table">
+				<thead>
+					<tr>
+						<th>Picture</th>
+						<th>Title</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="imageCell"><img class="image" src="http://localhost:8080/final_project/database/hammer.png" alt="Logo" height="500" width="500"></td>
+						<td class="name">Hammer Slammers</td>
+						<td class="description">Compete against the clock as you try to hammer as many nails as you can!<br><br>
+										$15.00</td>
+						<td class="check"><input type="checkbox" class="largerCheckbox" name="gameSelect" value="Hammer Slammers|15.00"><label for="gameSelect">Add game to cart</label></td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="styled-table">
+				<thead>
+					<tr>
+						<th>Picture</th>
+						<th>Title</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="imageCell"><img class="image" src="http://localhost:8080/final_project/database/robots.jpg" alt="Logo" height="500" width="500"></td>
+						<td class="name">Rockin' Robots</td>
+						<td class="description">Battle it out as supercharged robots of the future! Can be played solo or with a friend!<br><br>
+										$20.00</td>
+						<td class="check"><input type="checkbox" class="largerCheckbox" name="gameSelect" value="Rockin' Robots|20.00"><label for="gameSelect">Add game to cart</label></td>
+					</tr>
+				</tbody>
+			</table>
+			<table class="styled-table">
+				<thead>
+					<tr>
+						<th>Picture</th>
+						<th>Title</th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="imageCell"><img class="image" src="http://localhost:8080/final_project/database/firefighters.jpg" alt="Logo" height="500" width="500"></td>
+						<td class="name">Fighting Firemen</td>
+						<td class="description">Help save the city from a rampaging fire! More points for the more fires you put out!<br><br>
+										$14.00</td>
+						<td class="check"><input type="checkbox" class="largerCheckbox" name="gameSelect" value="Fighting Firemen|14.00"><label for="gameSelect">Add game to cart</label></td>
+					</tr>
+				</tbody>
+			</table><input type="submit" value="Place Order!" class="form-submit-button"></form>
+	</body>
+</html>

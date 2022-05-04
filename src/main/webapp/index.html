@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="windows-1252">
+        <link rel="stylesheet" href="http://localhost:8080/final_project/login_style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Welcome to </h1><h1 class="name">Mist</h1><h1>!</h1>
+        <p>Please provide your login information below</p>
+        <form action="loginServlet" method="post">
+            <input type="hidden" name="action" value="login">        
+            <label>Username:</label>
+            <input type="text" name="username" required class="in"><br>
+            <label>Password: </label>
+            <input type="text" name="password" required class="in"><br>
+            <label>&nbsp;</label>
+            <input type="submit" value="Login" class="form-submit-button" name="login">
+            <input type="submit" value="Register" class="form-submit-button" name="register">
+        </form>
+    </body>
+</html>
